@@ -7,8 +7,12 @@ body {
   font-size: 50px;
 }
 
+h2 {
+  margin-bottom: 0px;
+}
+
 .controls {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 input {
@@ -16,7 +20,7 @@ input {
 }
 
 img {
-  width: 200px;
+  width: 300px;
   height: auto;
   background-size: contain;
   border-radius: 5px;
@@ -29,9 +33,16 @@ img {
   color: var(--color);
 }
 
+.today {
+  color: var(--color);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  margin: 0px auto 30px auto;
+}
+
 /* CSS Variables */
 :root {
   --color: #fc6100;
-  --spacing: 10px;
-  --blur: 10px;
+  --spacing: 0px;
+  --blur: 0px;
 }
