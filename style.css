@@ -20,4 +20,18 @@ img {
   height: auto;
   background-size: contain;
   border-radius: 5px;
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  background-color: var(--color);
+}
+
+.hl {
+  color: var(--color);
+}
+
+/* CSS Variables */
+:root {
+  --color: #fc6100;
+  --spacing: 10px;
+  --blur: 10px;
 }
